@@ -1,0 +1,22 @@
+/* themeToggle.module.css */
+
+.container {
+  width: 70px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: background-color 0.3s ease-out; /* Add transition for background color */
+}
+
+.ball {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  transition: left 0.3s ease-out, background-color 0.3s ease-out; /* Add transition for left position and background color */
+}
